@@ -72,9 +72,10 @@ Redmine に自動で連番を付加するカスタムフィールドを提供す
 ## Install
 
 1. `your_redmine_path/plugins/redmine_serial_number_field/` に clone もしくはダウンロードしたソースを配置します
-2. `$ cd your_redmine_path/`
-3. `$ bundle install`
-4. Redmineを再起動してください
+2. フォルダ名を変更します `mv redmine_serial_number_field_for_redmine_v5 redmine_serial_number_field` 
+3. `$ cd your_redmine_path/`
+4. `$ bundle install`
+5. Redmineを再起動してください
 
 ## License
 

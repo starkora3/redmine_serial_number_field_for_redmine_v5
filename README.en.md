@@ -72,9 +72,10 @@ Add a format to be serial number in the specified format as a issue custom field
 ## Install
 
 1. git clone or copy an unarchived plugin to `plugins/redmine_serial_number_field` on your Redmine path.
-2. `$ cd your_redmine_path/`
-3. `$ bundle install`
-4. Please restart Redmine
+2. rename folder `mv redmine_serial_number_field_for_redmine_v5 redmine_serial_number_field`
+3. `$ cd your_redmine_path/`
+4. `$ bundle install`
+5. Please restart Redmine
 
 ## License
 
