@@ -8,5 +8,5 @@ Redmine::Plugin.register :redmine_serial_number_field do
   author_url 'http://www.matsukei.co.jp/'
 end
 
-require_relative 'lib/format'
+require_relative 'lib/serial_number_field/format'
 require_relative 'lib/serial_number_field'
